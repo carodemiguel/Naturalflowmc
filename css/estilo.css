@@ -770,9 +770,11 @@ main .cajaContacto .container .letraPisaBootstrap {
     height: 350px; }
   header .fotoPortadaNutricion {
     height: 350px; }
+  main .cajaBlog .cajaTextoBlog p a .overflowLinksExternos {
+    text-overflow: hidden; }
   main .cajaBlog .cajaImagenBlog .fotoPosteos {
     margin: 5px auto;
-    width: 70%; }
+    width: 100%; }
   main .cajaCurso .reservarCurso .divCalltoaction .calltoactionSmall {
     font-size: medium; }
   main .cajaCurso .carousel {

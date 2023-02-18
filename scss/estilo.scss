@@ -235,11 +235,23 @@ footer{
         }
     }
      main{
-        .cajaBlog{              
-            .cajaImagenBlog{
+        .cajaBlog{
+            .cajaTextoBlog{ 
+                p{  
+                    a{
+                        .overflowLinksExternos{
+                            text-overflow: hidden;
+                        }   
+                    }               
+                                    
+                   
+                }               
+                    
+                }                          
+            .cajaImagenBlog{                
                 .fotoPosteos{                        
                     margin: 5px auto;                                  
-                    width: 70%;                                    
+                    width: 100%;                                    
                 }    
             }
         }
