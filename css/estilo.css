@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "SofiaSans-Light"; }
+  body h1, body h2, body h3, body h4, body h5 {
+    font-family: "SofiaSans-Regular";
+    color: #090303;
+    text-align: center;
+    padding: 20px; }
+  body p {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    padding: 15px; }
+
+footer {
+  background-color: #434343;
+  margin-bottom: 10px; }
+  footer .logoAlPie {
+    margin-bottom: 40px;
+    padding: 20px; }
+    footer .logoAlPie .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px; }
+  footer .footerBottom .redesFooter {
+    display: flex;
+    align-items: center;
+    padding: 20px; }
+    footer .footerBottom .redesFooter .iconoInstagram {
+      border: #8a8a8a 2px solid;
+      width: 30px;
+      border-radius: 50%;
+      margin: 5px; }
+    footer .footerBottom .redesFooter .iconoFacebook {
+      border: #8a8a8a 2px solid;
+      width: 30px;
+      border-radius: 50%;
+      margin: 5px; }
+    footer .footerBottom .redesFooter .iconoTwiter {
+      border: #8a8a8a 2px solid;
+      width: 30px;
+      border-radius: 50%;
+      margin: 5px; }
+    footer .footerBottom .redesFooter .iconoWhatsapp {
+      border: #8a8a8a 2px solid;
+      width: 30px;
+      border-radius: 50%;
+      margin: 5px; }
+  footer h5 {
+    color: white; }
+
+@font-face {
+  font-family: "SofiaSans-Light";
+  src: url(../assets/fonts/SofiaSans-Light.ttf); }
+
+@font-face {
+  font-family: "SofiaSans-Regular";
+  src: url(../assets/fonts/SofiaSans-Regular.ttf); }
+
+header .linkNav {
+  font-family: "SofiaSans-Regular";
+  color: #090303;
+  font-size: 1.3rem; }
+  header .linkNav:hover {
+    transform: translate(0.1px, 5px);
+    color: orange; }
+  header .linkNav:focus {
+    background-color: white; }
+
+header .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0px; }
+
+header .fotoPortada {
+  background-image: url(../img/entrenamientoKettlebells.JPG);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortada .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortada .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortada .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortada .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortada .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortada .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortada .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortada .header2 .divSlogan {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: row; }
+      header .fotoPortada .header2 .divSlogan h2 {
+        font-size: 2.5rem;
+        color: white;
+        font-weight: bold; }
+    header .fotoPortada .header2 .divCalltoaction {
+      display: flex;
+      justify-content: center;
+      border-radius: 5px;
+      align-items: flex-end;
+      flex-direction: row;
+      text-decoration: none; }
+      header .fotoPortada .header2 .divCalltoaction .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 10px; }
+        header .fotoPortada .header2 .divCalltoaction .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
+
+main .cajaIntroduccion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 8px;
+  border: #735d331b 5px groove; }
+  main .cajaIntroduccion h1 {
+    text-align: left;
+    background-color: #735d331b; }
+  main .cajaIntroduccion p {
+    width: 95%; }
+  main .cajaIntroduccion .divCalltoaction {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .cajaIntroduccion .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .cajaIntroduccion .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+    main .cajaIntroduccion .divCalltoaction .calltoactionSmall {
+      font-size: medium; }
+
+main .sectionNuevoPost {
+  margin: 20px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-areas: "titulo titulo" "imagen texto" "imagen cta";
+  background-color: #434343; }
+  main .sectionNuevoPost .Subtitulo {
+    grid-area: titulo;
+    height: 50px; }
+    main .sectionNuevoPost .Subtitulo h4 {
+      text-align: start;
+      color: white; }
+  main .sectionNuevoPost .cajaImagenPosteo {
+    grid-area: imagen;
+    padding: 10px; }
+    main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
+      border-radius: 8px;
+      width: 99%;
+      height: 99%; }
+  main .sectionNuevoPost .cajaTextoPosteo {
+    grid-area: texto;
+    color: white; }
+    main .sectionNuevoPost .cajaTextoPosteo h5 {
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-size: 1.3rem;
+      font-weight: bolder; }
+  main .sectionNuevoPost .divCalltoaction {
+    grid-area: cta;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .sectionNuevoPost .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .sectionNuevoPost .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+    main .sectionNuevoPost .divCalltoaction .calltoactionSmall {
+      font-size: medium; }
+
+main .sectionReviews {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 8px;
+  border: #735d331b 5px groove; }
+  main .sectionReviews .Subtitulo {
+    background-color: #735d331b; }
+    main .sectionReviews .Subtitulo h4 {
+      text-align: start;
+      color: black; }
+  main .sectionReviews .cajaReviews {
+    display: flex;
+    justify-content: space-around; }
+    main .sectionReviews .cajaReviews .review {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .sectionReviews .cajaReviews .review p {
+        text-align: center; }
+
+main .sectionProximosCursos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 8px;
+  border: #735d331b 5px groove; }
+  main .sectionProximosCursos .Subtitulo {
+    background-color: #735d331b; }
+    main .sectionProximosCursos .Subtitulo h4 {
+      text-align: start;
+      color: black; }
+  main .sectionProximosCursos .cajaProximosCursos {
+    display: flex;
+    justify-content: space-around; }
+    main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction {
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: flex-end;
+        flex-direction: row;
+        text-decoration: none; }
+        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction {
+          background-color: orange;
+          text-decoration: underline orange;
+          border-radius: 30px;
+          padding: 20px;
+          margin-bottom: 10px; }
+          main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction:hover {
+            transform: scale(1.1, 1.1);
+            text-decoration-color: orange; }
+        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoactionSmall {
+          font-size: medium; }
+        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonProximosCursos {
+          margin: 20px; }
+
+header .fotoPortadaAbout {
+  background-image: url(../img/naturalflowmcTeam.jpg);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortadaAbout .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortadaAbout .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortadaAbout .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaAbout .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaAbout .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaAbout .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortadaAbout .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortadaAbout .header2 .divSlogan h2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }
+
+main .mainAbout {
+  display: flex;
+  flex-direction: column; }
+  main .mainAbout .cajaTextoAbout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 8px;
+    border: #735d331b 5px groove; }
+    main .mainAbout .cajaTextoAbout h1 {
+      text-align: left;
+      background-color: #735d331b; }
+    main .mainAbout .cajaTextoAbout p {
+      width: 95%; }
+  main .mainAbout .divCalltoaction {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .mainAbout .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .mainAbout .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+
+header .fotoPortadaBlog {
+  background-image: url(../img/blogSaludDeporte.JPG);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortadaBlog .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortadaBlog .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortadaBlog .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaBlog .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaBlog .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaBlog .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortadaBlog .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortadaBlog .header2 .divSlogan h2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }
+
+main h1 {
+  text-align: left;
+  background-color: #735d331b; }
+
+main .cajaBlog {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr 0.20fr;
+  grid-template-areas: "imagen titulo" "texto texto" "cta cta";
+  margin: 20px;
+  background-color: #735d331b; }
+  main .cajaBlog .cajaImagenBlog {
+    grid-area: imagen; }
+    main .cajaBlog .cajaImagenBlog .fotoPosteos {
+      width: 100%;
+      border-radius: 8px; }
+  main .cajaBlog .cajaTituloYtextoBlog {
+    grid-area: titulo; }
+  main .cajaBlog .cajaTextoBlog {
+    grid-area: texto; }
+  main .cajaBlog .divCalltoaction {
+    grid-area: cta;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-start;
+    flex-direction: row;
+    text-decoration: none; }
+    main .cajaBlog .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .cajaBlog .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+
+header .fotoPortadaScorpion {
+  background-image: url(../img/fotoCursoAnimal.jpg);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortadaScorpion .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortadaScorpion .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortadaScorpion .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaScorpion .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaScorpion .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaScorpion .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortadaScorpion .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortadaScorpion .header2 .divSlogan h2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }
+
+main .cajaCurso {
+  display: flex;
+  flex-direction: column; }
+  main .cajaCurso .cajaTablaCursos .tablaFechasCursos {
+    margin: 20px auto;
+    width: 90%; }
+  main .cajaCurso .reservarCurso .divCalltoaction {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+  main .cajaCurso .carousel {
+    width: 400px;
+    margin: 20px  auto;
+    padding: 0px; }
+
+header .fotoPortadaNutricion {
+  background-image: url(../img/cursoNutricion.jpg);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortadaNutricion .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortadaNutricion .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortadaNutricion .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaNutricion .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaNutricion .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaNutricion .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortadaNutricion .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortadaNutricion .header2 .divSlogan h2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }
+
+main .cajaCurso {
+  display: flex;
+  flex-direction: column; }
+  main .cajaCurso .cajaTablaCursos .tablaFechasCursos {
+    margin: 20px auto;
+    width: 90%; }
+  main .cajaCurso .reservarCurso .divCalltoaction {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+  main .cajaCurso .carousel {
+    width: 400px;
+    margin: 20px  auto;
+    padding: 0px; }
+
+header .fotoPortadaKettlebells {
+  background-image: url(../img/cursoKettlebells.jpg);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px; }
+  header .fotoPortadaKettlebells .header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%; }
+    header .fotoPortadaKettlebells .header1 .redesSociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0; }
+      header .fotoPortadaKettlebells .header1 .redesSociales .iconoInstagram {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaKettlebells .header1 .redesSociales .iconoFacebook {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaKettlebells .header1 .redesSociales .iconoTwiter {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+      header .fotoPortadaKettlebells .header1 .redesSociales .iconoWhatsapp {
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px; }
+  header .fotoPortadaKettlebells .header2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    text-align: center;
+    justify-content: flex-end; }
+    header .fotoPortadaKettlebells .header2 .divSlogan h2 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }
+
+main .cajaCurso {
+  display: flex;
+  flex-direction: column; }
+  main .cajaCurso .cajaTablaCursos .tablaFechasCursos {
+    margin: 20px auto;
+    width: 90%; }
+  main .cajaCurso .reservarCurso .divCalltoaction {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: row;
+    text-decoration: none; }
+    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
+      background-color: orange;
+      text-decoration: underline orange;
+      border-radius: 30px;
+      padding: 20px;
+      margin-bottom: 10px; }
+      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
+        transform: scale(1.1, 1.1);
+        text-decoration-color: orange; }
+  main .cajaCurso .carousel {
+    width: 400px;
+    margin: 20px  auto;
+    padding: 0px; }
+
+main .cajaContacto .container .letraPisaBootstrap {
+  font-family: "SofiaSans-Regular";
+  color: #090303;
+  text-align: center;
+  padding: 20px; }
+  main .cajaContacto .container .letraPisaBootstrap .input:focus {
+    transform: scale(1.1, 1.1);
+    border: #f9f6f6 1px solid; }
+  main .cajaContacto .container .letraPisaBootstrap .calltoaction {
+    background-color: orange;
+    text-decoration: underline orange;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px; }
+    main .cajaContacto .container .letraPisaBootstrap .calltoaction:hover {
+      transform: scale(1.1, 1.1);
+      text-decoration-color: orange; }
+
+@media screen and (max-width: 768px) {
+  header .fotoPortada {
+    background-image: url(../img/entrenamientoKettlebells2.JPG);
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px; }
+  header .hamburguesa {
+    margin: 40px; }
+  main .sectionNuevoPost {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 3fr 1fr;
+    grid-template-areas: "titulo" "imagen" "texto" "cta"; }
+    main .sectionNuevoPost .Subtitulo {
+      grid-area: titulo;
+      height: 100px; }
+    main .sectionNuevoPost .cajaTextoPosteo {
+      grid-area: texto; }
+    main .sectionNuevoPost .cajaImagenPosteo {
+      grid-area: imagen; }
+      main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
+        display: inline-block;
+        border-radius: 10px;
+        height: 400px; }
+    main .sectionNuevoPost .divCalltoaction {
+      grid-area: cta;
+      display: flex;
+      align-items: flex-start;
+      padding: 10px; }
+  main .sectionReviews .cajaReviews {
+    flex-direction: column; }
+    main .sectionReviews .cajaReviews .review {
+      align-self: center; }
+  main .sectionProximosCursos .cajaProximosCursos {
+    flex-direction: column; }
+    main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+      align-self: center; }
+  main .cajaBlog {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr 0.20fr;
+    grid-template-areas: "imagen" "titulo" "texto" "cta"; }
+    main .cajaBlog .cajaImagenBlog {
+      grid-area: imagen;
+      display: flex; }
+      main .cajaBlog .cajaImagenBlog .fotoPosteos {
+        margin: auto;
+        height: 400px;
+        display: inline-block; }
+    main .cajaBlog .cajaTituloYtextoBlog {
+      grid-area: titulo; }
+    main .cajaBlog .cajaTextoBlog {
+      grid-area: texto; }
+    main .cajaBlog .divCalltoaction {
+      grid-area: cta; }
+  main .container .mapa {
+    margin: auto;
+    padding: 50px; } }
+
+@media screen and (max-width: 320px) {
+  header .fotoPortada .header2 .divCalltoaction .calltoaction {
+    text-decoration: underline orange; }
+  main .cajaBlog .cajaImagenBlog .fotoPosteos {
+    margin: 5px auto;
+    width: 70%; }
+  main .cajaCurso .reservarCurso .divCalltoaction .calltoactionSmall {
+    font-size: medium; }
+  main .cajaCurso .carousel {
+    width: 200px;
+    margin: 2px  auto;
+    padding: 0px; } }
