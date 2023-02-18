@@ -114,7 +114,7 @@ footer{
             background-repeat: no-repeat;
             background-size: cover;
             padding: 0px;
-            margin: 0px;       
+            margin: 0px;                 
         } 
         .hamburguesa{
             margin: 40px;        
@@ -203,12 +203,13 @@ footer{
             }            
         }
         
-        }
     }
+}
            
 @media screen and (max-width: 320px){
     header{
         .fotoPortada{
+            height: 350px;
             .header2{
                 .divCalltoaction{
                     .calltoaction{        
@@ -216,6 +217,21 @@ footer{
                     } 
                 }
             }
+        }
+        .fotoPortadaAbout{
+            height: 350px;
+        }
+        .fotoPortadaScorpion{
+            height: 350px;
+        }
+        .fotoPortadaBlog{
+            height: 350px;
+        }
+        .fotoPortadaKettlebells{
+            height: 350px;
+        }
+        .fotoPortadaNutricion{
+            height: 350px;
         }
     }
      main{

@@ -79,7 +79,7 @@ header .logo {
   margin: 0px; }
 
 header .fotoPortada {
-  background-image: url(../img/entrenamientoKettlebells.JPG);
+  background-image: url(../img/entrenamientoKettlebells.jpg);
   height: 450px;
   background-attachment: fixed;
   background-position: center;
@@ -756,8 +756,20 @@ main .cajaContacto .container .letraPisaBootstrap {
     padding: 50px; } }
 
 @media screen and (max-width: 320px) {
-  header .fotoPortada .header2 .divCalltoaction .calltoaction {
-    text-decoration: underline orange; }
+  header .fotoPortada {
+    height: 350px; }
+    header .fotoPortada .header2 .divCalltoaction .calltoaction {
+      text-decoration: underline orange; }
+  header .fotoPortadaAbout {
+    height: 350px; }
+  header .fotoPortadaScorpion {
+    height: 350px; }
+  header .fotoPortadaBlog {
+    height: 350px; }
+  header .fotoPortadaKettlebells {
+    height: 350px; }
+  header .fotoPortadaNutricion {
+    height: 350px; }
   main .cajaBlog .cajaImagenBlog .fotoPosteos {
     margin: 5px auto;
     width: 70%; }
