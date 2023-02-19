@@ -126,7 +126,7 @@ header .fotoPortada {
       align-items: flex-end;
       flex-direction: row; }
       header .fotoPortada .header2 .divSlogan h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         color: white;
         font-weight: bold; }
     header .fotoPortada .header2 .divCalltoaction {
@@ -225,13 +225,14 @@ main .sectionReviews {
   border-radius: 8px;
   border: #735d331b 5px groove;
   color: #fecc01;
-  background-color: #434343; }
+  background-color: #735d331b; }
   main .sectionReviews .Subtitulo h4 {
     text-align: start;
-    color: #fecc01; }
+    color: black; }
   main .sectionReviews .cajaReviews {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    background-color: #434343; }
     main .sectionReviews .cajaReviews .review {
       display: flex;
       flex-direction: column;
@@ -332,7 +333,7 @@ header .fotoPortadaAbout {
     text-align: center;
     justify-content: flex-end; }
     header .fotoPortadaAbout .header2 .divSlogan h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: white;
       font-weight: bold; }
 
@@ -411,7 +412,7 @@ header .fotoPortadaBlog {
     text-align: center;
     justify-content: flex-end; }
     header .fotoPortadaBlog .header2 .divSlogan h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: white;
       font-weight: bold; }
 
@@ -496,7 +497,7 @@ header .fotoPortadaScorpion {
     text-align: center;
     justify-content: flex-end; }
     header .fotoPortadaScorpion .header2 .divSlogan h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: white;
       font-weight: bold; }
 
@@ -570,7 +571,7 @@ header .fotoPortadaNutricion {
     text-align: center;
     justify-content: flex-end; }
     header .fotoPortadaNutricion .header2 .divSlogan h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: white;
       font-weight: bold; }
 
@@ -644,7 +645,7 @@ header .fotoPortadaKettlebells {
     text-align: center;
     justify-content: flex-end; }
     header .fotoPortadaKettlebells .header2 .divSlogan h2 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: white;
       font-weight: bold; }
 
@@ -755,29 +756,71 @@ main .cajaContacto .container .letraPisaBootstrap {
     margin: auto;
     padding: 50px; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   header .fotoPortada {
-    height: 350px; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortada .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
     header .fotoPortada .header2 .divCalltoaction .calltoaction {
-      text-decoration: underline orange; }
+      text-decoration-color: orange;
+      font-size: medium; }
   header .fotoPortadaAbout {
-    height: 350px; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortadaAbout .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
   header .fotoPortadaScorpion {
-    height: 350px; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortadaScorpion .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
   header .fotoPortadaBlog {
-    height: 350px; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortadaBlog .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
   header .fotoPortadaKettlebells {
-    height: 350px; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortadaKettlebells .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
   header .fotoPortadaNutricion {
-    height: 350px; }
-  main .cajaBlog .cajaTextoBlog p a .overflowLinksExternos {
-    text-overflow: hidden; }
-  main .cajaBlog .cajaImagenBlog .fotoPosteos {
-    margin: 5px auto;
-    width: 100%; }
+    height: 250px;
+    background-attachment: local; }
+    header .fotoPortadaNutricion .header2 .divSlogan h2 {
+      font-size: 1.8rem; }
+  main .cajaBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    main .cajaBlog .cajaTextoBlog p a .overflowLinksExternos {
+      text-overflow: hidden; }
+    main .cajaBlog .cajaImagenBlog .fotoPosteos {
+      margin: 5px auto;
+      width: 100%; }
   main .cajaCurso .reservarCurso .divCalltoaction .calltoactionSmall {
     font-size: medium; }
   main .cajaCurso .carousel {
     width: 200px;
     margin: 2px  auto;
-    padding: 0px; } }
+    padding: 0px; }
+  main .cajaContacto .container .letraPisaBootstrap .calltoaction {
+    font-size: small; }
+  main .cajaProximosCursos .proximoCurso img {
+    width: 250px; }
+  main .sectionNuevoPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    main .sectionNuevoPost .Subtitulo {
+      height: 100px;
+      margin-bottom: 0px; }
+    main .sectionNuevoPost .cajaImagenPosteo {
+      height: 350px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+      main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
+        height: 300px; }
+    main .sectionNuevoPost .cajaTextoPosteo {
+      margin-top: 0px; } }

@@ -12,8 +12,7 @@ $color-boton: orange;
     &:hover{
         transform: scale(1.1, 1.1);
         text-decoration-color: $color-boton;
-}
-
+    }
 }
 *{
     margin: 0;
@@ -100,9 +99,7 @@ footer{
 @import "animalflow";
 @import "nutricion";
 @import "kettlebells";            
-@import "contacto";   
-
-
+@import "contacto";  
 
 @media screen and (max-width: 768px){               
     header{
@@ -129,7 +126,7 @@ footer{
             "titulo"
             "imagen"
             "texto"
-            "cta"; 
+            "cta";             
             .Subtitulo{
                 grid-area: titulo;
                 height: 100px;                
@@ -204,50 +201,97 @@ footer{
         }
         
     }
-}
-           
-@media screen and (max-width: 320px){
+}           
+@media screen and (max-width: 480px){
     header{
         .fotoPortada{
-            height: 350px;
+            height: 250px;            
+            background-attachment: local;           
             .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
                 .divCalltoaction{
                     .calltoaction{        
-                        text-decoration: underline $color-boton;      
+                        text-decoration-color: $color-boton;
+                        font-size: medium;      
                     } 
                 }
             }
         }
         .fotoPortadaAbout{
-            height: 350px;
+            height: 250px;            
+            background-attachment: local;
+            
+            .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
         .fotoPortadaScorpion{
-            height: 350px;
+            height: 250px;            
+            background-attachment: local;
+            .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
-        .fotoPortadaBlog{
-            height: 350px;
+        .fotoPortadaBlog{            
+            height: 250px;            
+            background-attachment: local;             
+            .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
         .fotoPortadaKettlebells{
-            height: 350px;
+            height: 250px;            
+            background-attachment: local;            
+            .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
         .fotoPortadaNutricion{
-            height: 350px;
+            height: 250px;            
+            background-attachment: local;                      
+            .header2{
+                .divSlogan{
+                    h2{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
     }
      main{
         .cajaBlog{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             .cajaTextoBlog{ 
                 p{  
                     a{
                         .overflowLinksExternos{
                             text-overflow: hidden;
                         }   
-                    }               
-                                    
-                   
-                }               
-                    
-                }                          
+                    }             
+                }                   
+            }                   
             .cajaImagenBlog{                
                 .fotoPosteos{                        
                     margin: 5px auto;                                  
@@ -269,8 +313,46 @@ footer{
                 padding: 0px;  
             }
         }
-    }  
-}                                                       
+        .cajaContacto{
+            .container{
+                .letraPisaBootstrap{
+                    .calltoaction{
+                        font-size: small;
+                    }
+                }
+            }
+        } 
+        .cajaProximosCursos{
+            .proximoCurso{
+                img{
+                    width: 250px;
+                }
+            }
+        } 
+        .sectionNuevoPost{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .Subtitulo{
+                height: 100px;               
+                margin-bottom: 0px;
+            }
+            .cajaImagenPosteo{
+                height: 350px;                
+                margin-top: 0px;
+                margin-bottom: 0px;
+                .fotoPosteos{
+                    height: 300px;                
+                }
+            }
+            .cajaTextoPosteo{               
+                margin-top: 0px;
+            }
+        }
+    }                                     
+}                    
+                          
+                                               
                 
      
             
