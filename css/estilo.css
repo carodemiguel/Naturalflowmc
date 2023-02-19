@@ -764,7 +764,8 @@ main .cajaContacto .container .letraPisaBootstrap {
       font-size: 1.8rem; }
     header .fotoPortada .header2 .divCalltoaction .calltoaction {
       text-decoration-color: orange;
-      font-size: medium; }
+      font-size: medium;
+      text-decoration: underline orange; }
   header .fotoPortadaAbout {
     height: 250px;
     background-attachment: local; }
@@ -794,8 +795,6 @@ main .cajaContacto .container .letraPisaBootstrap {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; }
-    main .cajaBlog .cajaTextoBlog p a .overflowLinksExternos {
-      text-overflow: hidden; }
     main .cajaBlog .cajaImagenBlog .fotoPosteos {
       margin: 5px auto;
       width: 100%; }

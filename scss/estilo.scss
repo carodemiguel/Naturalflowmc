@@ -180,26 +180,24 @@ footer{
                         margin: auto;                        
                         height: 400px; 
                         display: inline-block;                       
-                }    
+                    }    
                 }
                 .cajaTituloYtextoBlog{
                     grid-area: titulo;
                  }
                 .cajaTextoBlog{
-                    grid-area: texto;
+                    grid-area: texto;                                        
                 }
                 .divCalltoaction{
                     grid-area: cta;                    
                 }     
-        }
-        
+        }        
         .container{
             .mapa{                
                 margin: auto;
                 padding: 50px;
             }            
-        }
-        
+        }        
     }
 }           
 @media screen and (max-width: 480px){
@@ -216,7 +214,8 @@ footer{
                 .divCalltoaction{
                     .calltoaction{        
                         text-decoration-color: $color-boton;
-                        font-size: medium;      
+                        font-size: medium; 
+                        text-decoration: underline $color-boton;     
                     } 
                 }
             }
@@ -282,16 +281,7 @@ footer{
         .cajaBlog{
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            .cajaTextoBlog{ 
-                p{  
-                    a{
-                        .overflowLinksExternos{
-                            text-overflow: hidden;
-                        }   
-                    }             
-                }                   
-            }                   
+            justify-content: flex-start;              
             .cajaImagenBlog{                
                 .fotoPosteos{                        
                     margin: 5px auto;                                  
@@ -351,7 +341,7 @@ footer{
         }
     }                                     
 }                    
-                          
+                      
                                                
                 
      
