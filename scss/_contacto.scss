@@ -1,11 +1,18 @@
 main{
     .cajaContacto{
-        .container{
+        .container{ 
+            .fondoContacto{
+                background-color: $color-cajas;
+                margin-top: 25px;
+                margin-bottom:25px;
+                border-radius: 8px;
+            }          
             .letraPisaBootstrap{
                 font-family: "SofiaSans-Regular";
                 color: #090303;                
                 text-align: center;
                 padding: 20px;
+                font-size: 1.2rem;
                 .input{
                     &:focus{
                         transform: scale(1.1, 1.1); 
