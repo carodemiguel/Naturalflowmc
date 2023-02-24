@@ -244,8 +244,8 @@ main .sectionNuevoPost {
   margin: 20px;
   border-radius: 8px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 5fr 0.2fr;
   grid-template-areas: "titulo titulo" "imagen texto" "imagen cta";
   border: #735d331b 5px groove;
   background-color: #735d331b;
@@ -253,7 +253,8 @@ main .sectionNuevoPost {
   main .sectionNuevoPost .Subtitulo {
     grid-area: titulo;
     background-color: #735d331b;
-    display: flex; }
+    display: flex;
+    height: 70px; }
     main .sectionNuevoPost .Subtitulo h4 {
       text-align: start;
       color: black; }
@@ -275,7 +276,8 @@ main .sectionNuevoPost {
       text-align: center;
       padding: 8px;
       font-size: 1.3rem;
-      font-weight: bolder; }
+      font-weight: bolder;
+      margin-top: 5px; }
   main .sectionNuevoPost .divCalltoaction {
     grid-area: cta;
     display: flex;
@@ -723,7 +725,7 @@ main .cajaContacto .container .letraPisaBootstrap {
   header .fotoPortada {
     background-image: url(../img/entrenamientoKettlebells2.JPG);
     height: 450px;
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -817,32 +819,44 @@ main .cajaContacto .container .letraPisaBootstrap {
     background-attachment: local; }
     header .fotoPortadaNutricion .header2 .divSlogan h2 {
       font-size: 1.8rem; }
-  main .cajaIntroduccion .divCalltoaction .calltoaction {
-    text-decoration-color: orange;
-    font-size: medium;
-    text-decoration: underline orange;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  main .mainAbout .divCalltoaction .calltoaction {
-    text-decoration-color: orange;
-    font-size: medium;
-    text-decoration: underline orange;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  main .cajaBlog .divCalltoaction .calltoaction {
-    text-decoration-color: orange;
-    font-size: medium;
-    text-decoration: underline orange;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  main .cajaBlog .cajaImagenBlog .fotoPosteos {
-    height: 300px; }
+  main .cajaIntroduccion {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .cajaIntroduccion .divCalltoaction .calltoaction {
+      text-decoration-color: orange;
+      font-size: medium;
+      text-decoration: underline orange;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  main .mainAbout {
+    margin-left: 1px;
+    margin-right: 1px; }
+    main .mainAbout .divCalltoaction .calltoaction {
+      text-decoration-color: orange;
+      font-size: medium;
+      text-decoration: underline orange;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  main .cajaBlog {
+    margin-left: 1px;
+    margin-right: 1px; }
+    main .cajaBlog .divCalltoaction .calltoaction {
+      text-decoration-color: orange;
+      font-size: medium;
+      text-decoration: underline orange;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    main .cajaBlog .cajaImagenBlog .fotoPosteos {
+      height: 300px; }
   main .cajaCurso .reservarCurso .divCalltoaction .calltoactionSmall {
     text-decoration-color: orange;
     font-size: medium;
@@ -863,36 +877,63 @@ main .cajaContacto .container .letraPisaBootstrap {
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px; }
-  main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
-    width: 250px; }
-  main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction {
-    text-decoration-color: orange;
-    font-size: medium;
-    text-decoration: underline orange;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
+  main .sectionProximosCursos {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+      width: 100%;
+      border: #735d331b 5px solid; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
+        width: 100%; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction {
+        text-decoration-color: orange;
+        font-size: medium;
+        text-decoration: underline orange;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+  main .sectionReviews {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .sectionReviews .review {
+      border: #fecb01b6 5px solid; }
   main .sectionNuevoPost {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #fecb0123 5px solid; }
     main .sectionNuevoPost .Subtitulo {
-      height: 100px;
+      height: 70px;
       margin-bottom: 0px; }
     main .sectionNuevoPost .cajaImagenPosteo {
       height: 350px;
       margin-top: 0px;
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      background-color: #fecb0123; }
       main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
-        height: 300px; }
+        height: 320px; }
     main .sectionNuevoPost .cajaTextoPosteo {
-      margin-top: 0px; }
-    main .sectionNuevoPost .divCalltoaction .calltoaction {
-      text-decoration-color: orange;
-      font-size: medium;
-      text-decoration: underline orange;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 10px;
-      padding-bottom: 10px; } }
+      margin-top: 0px;
+      background-color: #fecb0123; }
+    main .sectionNuevoPost .divCalltoaction {
+      background-color: #fecb0123; }
+      main .sectionNuevoPost .divCalltoaction .calltoaction {
+        text-decoration-color: orange;
+        font-size: medium;
+        text-decoration: underline orange;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
