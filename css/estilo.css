@@ -181,7 +181,7 @@ main .sectionProximosCursos {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 8px;
   border: #735d331b 5px groove; }
   main .sectionProximosCursos .Subtitulo {
@@ -195,7 +195,11 @@ main .sectionProximosCursos {
     main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      width: 30%;
+      margin: auto; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
+        width: 100%; }
       main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction {
         display: flex;
         justify-content: center;
@@ -777,10 +781,20 @@ main .cajaContacto .container .letraPisaBootstrap {
     flex-direction: column; }
     main .sectionReviews .cajaReviews .review {
       align-self: center; }
-  main .sectionProximosCursos .cajaProximosCursos {
-    flex-direction: column; }
-    main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
-      align-self: center; }
+  main .sectionProximosCursos {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .sectionProximosCursos .cajaProximosCursos {
+      flex-direction: column; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+        width: 100%;
+        border: #735d331b 5px solid; }
+        main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
+          width: 100%;
+          height: 100%; }
   main .cajaBlog .divImagenYtituloBlog {
     flex-direction: column; }
     main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog {

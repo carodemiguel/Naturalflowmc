@@ -124,7 +124,7 @@ main{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 20px;
+        margin: 20px auto;
         border-radius: 8px;  
         border:  $color-cajas 5px groove;
         .Subtitulo{
@@ -141,6 +141,12 @@ main{
                 display: flex;
                 flex-direction: column;
                 align-items: center; 
+                width: 30%;
+                margin: auto;
+                img{
+                    width: 100%;
+                    
+                }
                 .divCalltoaction{
                     display: flex;
                     justify-content: center;
