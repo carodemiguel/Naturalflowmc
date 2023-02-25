@@ -135,11 +135,13 @@ footer{
                 grid-area: texto;            
             } 
             .cajaImagenPosteo{
-                 grid-area: imagen;
+                 grid-area: imagen;                    
+                 width: 70%;
+                 margin: auto;                             
                  .fotoPosteos{        
                     display: inline-block;
                     border-radius: 10px;
-                    height: 400px;
+                    height: 400px;                                        
                 }
             }
             .divCalltoaction{
@@ -169,10 +171,12 @@ footer{
                 .divImagenYtituloBlog{
                     flex-direction: column;
                     .cajaImagenBlog{
-                        width: 100%;                         
+                        width: 70%;
+                        margin: auto;                         
                         .fotoPosteos{
                             margin: auto;                        
-                            width: 100%;   
+                            width: 100%; 
+                            height: 100%;  
                         }
                     } 
                     .cajaTituloYtextoBlog{
@@ -195,10 +199,7 @@ footer{
         }
        
     }
-}                               
-                   
-            
-        
+}                              
 @media screen and (max-width: 480px){
     header{        
         .fotoPortada{
@@ -217,8 +218,8 @@ footer{
                         text-decoration: underline $color-boton;
                         padding-left: 50px;
                         padding-right: 50px; 
-                        padding-top: 10px;
-                        padding-bottom: 10px;    
+                        padding-top: 15px;
+                        padding-bottom: 15px;    
                     } 
                 }
             }
@@ -300,19 +301,24 @@ footer{
             }
         }
         .mainAbout{
-            margin-left: 1px;
-            margin-right: 1px;
-            .divCalltoaction{
-                .calltoaction{
-                    text-decoration-color: $color-boton;
-                    font-size: medium; 
-                    text-decoration: underline $color-boton;
-                    padding-left: 50px;
-                    padding-right: 50px; 
-                    padding-top: 10px;
-                    padding-bottom: 10px; 
+            .cajaTextoAbout{
+                margin-left: 2px;
+                margin-right: 2px;   
+                margin: auto; 
+                margin-top: 20px;
+                margin-bottom: 20px;  
+                .divCalltoaction{
+                    .calltoaction{
+                        text-decoration-color: $color-boton;
+                        font-size: medium; 
+                        text-decoration: underline $color-boton;
+                        padding-left: 50px;
+                        padding-right: 50px; 
+                        padding-top: 10px;
+                        padding-bottom: 10px; 
+                    }
                 }
-            }
+            }           
         }
         .cajaBlog{
             margin-left: 1px;
@@ -327,12 +333,17 @@ footer{
                     padding-top: 10px;
                     padding-bottom: 10px; 
                 }
-            }                         
-            .cajaImagenBlog{                                                          
-                .fotoPosteos{                        
-                    height: 300px;                                                  
-                }    
-            }            
+            } 
+            .divImagenYtituloBlog{
+                .cajaImagenBlog{  
+                    width: 100%;                            
+                    .fotoPosteos{                    
+                       width: 100%;
+                       height: 100%;           
+                    }
+                }            
+            }                        
+            
         }
         .cajaCurso{
             .reservarCurso{
@@ -381,6 +392,7 @@ footer{
                     border: $color-cajas 5px solid;
                     img{
                         width: 100%;
+                       height: 100%;
                     }
                     .divCalltoaction{
                         .calltoaction{                       
@@ -420,13 +432,15 @@ footer{
                 height: 70px;               
                 margin-bottom: 0px;
             }
-            .cajaImagenPosteo{
-                height: 350px;                
+            .cajaImagenPosteo{                               
                 margin-top: 0px;
                 margin-bottom: 0px;
                 background-color:  #fecb0123;
+                width: 100%;
+                margin: auto;
                 .fotoPosteos{
-                    height: 320px;                
+                   width: 100%;
+                   height: 100%;               
                 }
             }
             .cajaTextoPosteo{               
@@ -447,7 +461,10 @@ footer{
             }
         }        
     }                                     
-}                    
+}                   
+           
+        
+                   
                       
                                                
                 

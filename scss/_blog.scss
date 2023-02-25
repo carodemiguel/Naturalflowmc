@@ -107,7 +107,7 @@ main{
             flex-direction: row;
             text-decoration: none;            
             .calltoaction{
-                @include boton ($color-boton)
+                @include boton ($color-boton)                
             }         
         }     
     }

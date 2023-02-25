@@ -744,7 +744,9 @@ main .cajaContacto .container .letraPisaBootstrap {
     main .sectionNuevoPost .cajaTextoPosteo {
       grid-area: texto; }
     main .sectionNuevoPost .cajaImagenPosteo {
-      grid-area: imagen; }
+      grid-area: imagen;
+      width: 70%;
+      margin: auto; }
       main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
         display: inline-block;
         border-radius: 10px;
@@ -765,10 +767,12 @@ main .cajaContacto .container .letraPisaBootstrap {
   main .cajaBlog .divImagenYtituloBlog {
     flex-direction: column; }
     main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog {
-      width: 100%; }
+      width: 70%;
+      margin: auto; }
       main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog .fotoPosteos {
         margin: auto;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
     main .cajaBlog .divImagenYtituloBlog .cajaTituloYtextoBlog {
       display: flex;
       flex-direction: column;
@@ -792,8 +796,8 @@ main .cajaContacto .container .letraPisaBootstrap {
       text-decoration: underline orange;
       padding-left: 50px;
       padding-right: 50px;
-      padding-top: 10px;
-      padding-bottom: 10px; }
+      padding-top: 15px;
+      padding-bottom: 15px; }
   header .fotoPortadaAbout {
     height: 250px;
     background-attachment: local; }
@@ -833,10 +837,13 @@ main .cajaContacto .container .letraPisaBootstrap {
       padding-right: 50px;
       padding-top: 10px;
       padding-bottom: 10px; }
-  main .mainAbout {
-    margin-left: 1px;
-    margin-right: 1px; }
-    main .mainAbout .divCalltoaction .calltoaction {
+  main .mainAbout .cajaTextoAbout {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main .mainAbout .cajaTextoAbout .divCalltoaction .calltoaction {
       text-decoration-color: orange;
       font-size: medium;
       text-decoration: underline orange;
@@ -855,8 +862,11 @@ main .cajaContacto .container .letraPisaBootstrap {
       padding-right: 50px;
       padding-top: 10px;
       padding-bottom: 10px; }
-    main .cajaBlog .cajaImagenBlog .fotoPosteos {
-      height: 300px; }
+    main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog {
+      width: 100%; }
+      main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog .fotoPosteos {
+        width: 100%;
+        height: 100%; }
   main .cajaCurso .reservarCurso .divCalltoaction .calltoactionSmall {
     text-decoration-color: orange;
     font-size: medium;
@@ -887,7 +897,8 @@ main .cajaContacto .container .letraPisaBootstrap {
       width: 100%;
       border: #735d331b 5px solid; }
       main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
       main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction {
         text-decoration-color: orange;
         font-size: medium;
@@ -918,12 +929,14 @@ main .cajaContacto .container .letraPisaBootstrap {
       height: 70px;
       margin-bottom: 0px; }
     main .sectionNuevoPost .cajaImagenPosteo {
-      height: 350px;
       margin-top: 0px;
       margin-bottom: 0px;
-      background-color: #fecb0123; }
+      background-color: #fecb0123;
+      width: 100%;
+      margin: auto; }
       main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
-        height: 320px; }
+        width: 100%;
+        height: 100%; }
     main .sectionNuevoPost .cajaTextoPosteo {
       margin-top: 0px;
       background-color: #fecb0123; }
