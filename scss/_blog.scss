@@ -105,10 +105,14 @@ main{
             border-radius: 5px;
             align-items: flex-start;
             flex-direction: row;
-            text-decoration: none;            
-            .calltoaction{
-                @include boton ($color-boton)                
-            }         
+            text-decoration: none; 
+            .botonContacto{
+                text-decoration: none;
+                .calltoaction{
+                    @include boton ($color-boton)                
+                }        
+            }           
+             
         }     
     }
 }

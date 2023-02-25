@@ -379,15 +379,17 @@ main .mainAbout {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .mainAbout .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .mainAbout .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
+    main .mainAbout .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .mainAbout .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .mainAbout .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
 
 header .fotoPortadaBlog {
   background-image: url(../img/blogSaludDeporte.JPG);
@@ -476,15 +478,17 @@ main .cajaBlog {
     align-items: flex-start;
     flex-direction: row;
     text-decoration: none; }
-    main .cajaBlog .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .cajaBlog .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
+    main .cajaBlog .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaBlog .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .cajaBlog .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
 
 header .fotoPortadaScorpion {
   background-image: url(../img/fotoCursoAnimal.jpg);
@@ -546,15 +550,17 @@ main .cajaCurso {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
+    main .cajaCurso .reservarCurso .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
   main .cajaCurso .carousel {
     width: 400px;
     margin: 20px  auto;
@@ -620,15 +626,17 @@ main .cajaCurso {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
+    main .cajaCurso .reservarCurso .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
   main .cajaCurso .carousel {
     width: 400px;
     margin: 20px  auto;
@@ -694,15 +702,17 @@ main .cajaCurso {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .cajaCurso .reservarCurso .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .cajaCurso .reservarCurso .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
+    main .cajaCurso .reservarCurso .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .cajaCurso .reservarCurso .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
   main .cajaCurso .carousel {
     width: 400px;
     margin: 20px  auto;

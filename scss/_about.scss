@@ -83,9 +83,13 @@ main{
             align-items: flex-end;
             flex-direction: row;
             text-decoration: none;
-            .calltoaction{
-                @include boton ($color-boton)
-            }         
+            .botonContacto{
+                text-decoration: none;
+                .calltoaction{
+                    @include boton ($color-boton)
+                }         
+            }
+           
         }     
     }
 }
