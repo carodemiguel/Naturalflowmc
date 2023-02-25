@@ -156,12 +156,14 @@ footer{
             } 
             .cajaImagenPosteo{
                  grid-area: imagen;                    
-                 width: 70%;
-                 margin: auto;                             
+                 margin-top: 0px;
+                 margin-bottom: 0px;                 
+                 width: 100%;
+                 margin: auto;                            
                  .fotoPosteos{        
-                    display: inline-block;
-                    border-radius: 10px;
-                    height: 400px;                                        
+                    width: 70%;
+                    height: 70%;
+                    margin: auto;                                    
                 }
             }
             .divCalltoaction{

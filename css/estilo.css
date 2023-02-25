@@ -760,12 +760,14 @@ main .cajaContacto .container .letraPisaBootstrap {
       grid-area: texto; }
     main .sectionNuevoPost .cajaImagenPosteo {
       grid-area: imagen;
-      width: 70%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 100%;
       margin: auto; }
       main .sectionNuevoPost .cajaImagenPosteo .fotoPosteos {
-        display: inline-block;
-        border-radius: 10px;
-        height: 400px; }
+        width: 70%;
+        height: 70%;
+        margin: auto; }
     main .sectionNuevoPost .divCalltoaction {
       grid-area: cta;
       display: flex;
