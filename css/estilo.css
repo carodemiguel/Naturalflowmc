@@ -731,6 +731,21 @@ main .cajaContacto .container .letraPisaBootstrap {
     background-size: cover;
     padding: 0px;
     margin: 0px; }
+  header .fotoPortadaAbout {
+    background-attachment: local;
+    height: 250px; }
+  header .fotoPortadaScorpion {
+    height: 250px;
+    background-attachment: local; }
+  header .fotoPortadaBlog {
+    height: 250px;
+    background-attachment: local; }
+  header .fotoPortadaKettlebells {
+    height: 250px;
+    background-attachment: local; }
+  header .fotoPortadaNutricion {
+    height: 250px;
+    background-attachment: local; }
   header .hamburguesa {
     margin: 40px; }
   main .sectionNuevoPost {
