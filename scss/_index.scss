@@ -82,10 +82,14 @@ header{
                 border-radius: 5px;
                 align-items: flex-end;
                 flex-direction: row;
-                text-decoration: none;                
-                .calltoaction{
-                   @include boton ($color-boton)
-                } 
+                text-decoration: none;  
+                .botonContacto{
+                    text-decoration: none;
+                    .calltoaction{
+                        @include boton ($color-boton)
+                     } 
+                }             
+               
             }                        
         }       
     }                              
@@ -158,15 +162,19 @@ main{
                     align-items: flex-end;
                     flex-direction: row;
                     text-decoration: none;
-                    .calltoaction{
-                        @include boton ($color-boton)
-                    } 
-                    .calltoactionSmall{
-                        font-size: medium;
+                    .botonContacto{
+                        text-decoration: none;
+                        .calltoaction{
+                            @include boton ($color-boton)
+                        } 
+                        .calltoactionSmall{
+                            font-size: medium;
+                        }
+                        .botonProximosCursos{
+                            margin: 20px;
+                        }
                     }
-                    .botonProximosCursos{
-                        margin: 20px;
-                    }
+                    
                 }     
                 
             }
@@ -259,12 +267,16 @@ main{
             align-items: flex-end;
             flex-direction: row;
             text-decoration: none;
-            .calltoaction{
-                @include boton ($color-boton)
-            } 
-            .calltoactionSmall{
-                font-size: medium;
-            }           
+            .botonContacto{
+                text-decoration: none;
+                .calltoaction{
+                    @include boton ($color-boton)
+                } 
+                .calltoactionSmall{
+                    font-size: medium;
+                }           
+            }
+            
         }
     }
 }

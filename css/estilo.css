@@ -136,15 +136,17 @@ header .fotoPortada {
       align-items: flex-end;
       flex-direction: row;
       text-decoration: none; }
-      header .fotoPortada .header2 .divCalltoaction .calltoaction {
-        background-color: orange;
-        text-decoration: underline orange;
-        border-radius: 30px;
-        padding: 16px;
-        margin-bottom: 10px; }
-        header .fotoPortada .header2 .divCalltoaction .calltoaction:hover {
-          transform: scale(1.1, 1.1);
-          text-decoration-color: orange; }
+      header .fotoPortada .header2 .divCalltoaction .botonContacto {
+        text-decoration: none; }
+        header .fotoPortada .header2 .divCalltoaction .botonContacto .calltoaction {
+          background-color: orange;
+          text-decoration: underline orange;
+          border-radius: 30px;
+          padding: 16px;
+          margin-bottom: 10px; }
+          header .fotoPortada .header2 .divCalltoaction .botonContacto .calltoaction:hover {
+            transform: scale(1.1, 1.1);
+            text-decoration-color: orange; }
 
 main .cajaIntroduccion {
   display: flex;
@@ -209,19 +211,21 @@ main .sectionProximosCursos {
         align-items: flex-end;
         flex-direction: row;
         text-decoration: none; }
-        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction {
-          background-color: orange;
-          text-decoration: underline orange;
-          border-radius: 30px;
-          padding: 16px;
-          margin-bottom: 10px; }
-          main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoaction:hover {
-            transform: scale(1.1, 1.1);
-            text-decoration-color: orange; }
-        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .calltoactionSmall {
-          font-size: medium; }
-        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonProximosCursos {
-          margin: 20px; }
+        main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonContacto {
+          text-decoration: none; }
+          main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonContacto .calltoaction {
+            background-color: orange;
+            text-decoration: underline orange;
+            border-radius: 30px;
+            padding: 16px;
+            margin-bottom: 10px; }
+            main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonContacto .calltoaction:hover {
+              transform: scale(1.1, 1.1);
+              text-decoration-color: orange; }
+          main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonContacto .calltoactionSmall {
+            font-size: medium; }
+          main .sectionProximosCursos .cajaProximosCursos .proximoCurso .divCalltoaction .botonContacto .botonProximosCursos {
+            margin: 20px; }
 
 main .sectionReviews {
   display: flex;
@@ -292,17 +296,19 @@ main .sectionNuevoPost {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .sectionNuevoPost .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .sectionNuevoPost .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
-    main .sectionNuevoPost .divCalltoaction .calltoactionSmall {
-      font-size: medium; }
+    main .sectionNuevoPost .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .sectionNuevoPost .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .sectionNuevoPost .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
+      main .sectionNuevoPost .divCalltoaction .botonContacto .calltoactionSmall {
+        font-size: medium; }
 
 header .fotoPortadaAbout {
   background-image: url(../img/naturalflowmcTeam.jpg);

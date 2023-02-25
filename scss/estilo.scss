@@ -239,17 +239,17 @@ footer{
                         font-size: 1.8rem;
                     }
                 }
-                .divCalltoaction{
-                    .calltoaction{        
-                        text-decoration-color: $color-boton;
-                        font-size: medium; 
-                        text-decoration: underline $color-boton;
-                        padding-left: 50px;
-                        padding-right: 50px; 
-                        padding-top: 15px;
-                        padding-bottom: 15px;    
-                    } 
-                }
+                .divCalltoaction{                   
+                        .calltoaction{        
+                            text-decoration-color: $color-boton;
+                            font-size: medium; 
+                            text-decoration: underline $color-boton;
+                            padding-left: 50px;
+                            padding-right: 50px; 
+                            padding-top: 15px;
+                            padding-bottom: 15px;    
+                        } 
+                }                  
             }
         }
         .fotoPortadaAbout{
