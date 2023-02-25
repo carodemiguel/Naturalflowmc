@@ -181,12 +181,7 @@ footer{
                 }
             }
         }
-        .sectionProximosCursos{
-            margin-left: 2px;
-            margin-right: 2px;   
-            margin: auto; 
-            margin-top: 20px;
-            margin-bottom: 20px; 
+        .sectionProximosCursos{           
             .cajaProximosCursos{
                 flex-direction: column;
                 .proximoCurso{                                       
@@ -322,15 +317,19 @@ footer{
             margin-top: 20px;
             margin-bottom: 20px;        
             .divCalltoaction{
-                .calltoaction{
-                    text-decoration-color: $color-boton;
-                    font-size: medium; 
-                    text-decoration: underline $color-boton;
-                    padding-left: 50px;
-                    padding-right: 50px; 
-                    padding-top: 10px;
-                    padding-bottom: 10px; 
+                .botonContacto{
+                    text-decoration: none;
+                    .calltoaction{                    
+                        text-decoration-color: $color-boton;
+                        font-size: medium; 
+                        text-decoration: underline $color-boton;
+                        padding-left: 50px;
+                        padding-right: 50px; 
+                        padding-top: 10px;
+                        padding-bottom: 10px; 
+                    }      
                 }
+                
             }
         }
         .mainAbout{
@@ -402,11 +401,9 @@ footer{
             .container{
                 .letraPisaBootstrap{
                     .calltoaction{
-                        font-size: small;
-                        text-decoration-color: $color-boton;                    
-                        text-decoration: underline $color-boton;
+                        font-size: small;                       
                         padding-left: 50px;
-                        padding-right: 50px; 
+                        padding-right: 50px;
                         padding-top: 10px;
                         padding-bottom: 10px; 
                     }

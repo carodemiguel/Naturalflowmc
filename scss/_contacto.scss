@@ -19,8 +19,12 @@ main{
                         border: rgb(249, 246, 246) 1px solid;
                     }
                 }
-                .calltoaction{
-                    @include boton ($color-boton)
+                .calltoaction{ 
+                    .botonContacto{
+                        color: black;
+                        text-decoration: none;
+                    }                                     
+                    @include boton ($color-boton)                                
                 }                 
             }
         }        

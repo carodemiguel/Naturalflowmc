@@ -112,19 +112,23 @@ main{
             align-items: flex-end;
             flex-direction: row;
             text-decoration: none;
-            .calltoaction{
-                @include boton ($color-boton)
-            } 
-            .calltoactionSmall{
-                font-size: medium;
-            }
+            .botonContacto{
+                text-decoration: none;
+                .calltoaction{
+               
+                    @include boton ($color-boton)
+                } 
+                .calltoactionSmall{
+                    font-size: medium;
+                }
+            }            
         }                    
     }
     .sectionProximosCursos{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 20px auto;
+        margin: 20px;
         border-radius: 8px;  
         border:  $color-cajas 5px groove;
         .Subtitulo{

@@ -165,23 +165,25 @@ main .cajaIntroduccion {
     align-items: flex-end;
     flex-direction: row;
     text-decoration: none; }
-    main .cajaIntroduccion .divCalltoaction .calltoaction {
-      background-color: orange;
-      text-decoration: underline orange;
-      border-radius: 30px;
-      padding: 16px;
-      margin-bottom: 10px; }
-      main .cajaIntroduccion .divCalltoaction .calltoaction:hover {
-        transform: scale(1.1, 1.1);
-        text-decoration-color: orange; }
-    main .cajaIntroduccion .divCalltoaction .calltoactionSmall {
-      font-size: medium; }
+    main .cajaIntroduccion .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaIntroduccion .divCalltoaction .botonContacto .calltoaction {
+        background-color: orange;
+        text-decoration: underline orange;
+        border-radius: 30px;
+        padding: 16px;
+        margin-bottom: 10px; }
+        main .cajaIntroduccion .divCalltoaction .botonContacto .calltoaction:hover {
+          transform: scale(1.1, 1.1);
+          text-decoration-color: orange; }
+      main .cajaIntroduccion .divCalltoaction .botonContacto .calltoactionSmall {
+        font-size: medium; }
 
 main .sectionProximosCursos {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 20px;
   border-radius: 8px;
   border: #735d331b 5px groove; }
   main .sectionProximosCursos .Subtitulo {
@@ -721,6 +723,9 @@ main .cajaContacto .container .letraPisaBootstrap {
     border-radius: 30px;
     padding: 16px;
     margin-bottom: 10px; }
+    main .cajaContacto .container .letraPisaBootstrap .calltoaction .botonContacto {
+      color: black;
+      text-decoration: none; }
     main .cajaContacto .container .letraPisaBootstrap .calltoaction:hover {
       transform: scale(1.1, 1.1);
       text-decoration-color: orange; }
@@ -781,20 +786,14 @@ main .cajaContacto .container .letraPisaBootstrap {
     flex-direction: column; }
     main .sectionReviews .cajaReviews .review {
       align-self: center; }
-  main .sectionProximosCursos {
-    margin-left: 2px;
-    margin-right: 2px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    main .sectionProximosCursos .cajaProximosCursos {
-      flex-direction: column; }
-      main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+  main .sectionProximosCursos .cajaProximosCursos {
+    flex-direction: column; }
+    main .sectionProximosCursos .cajaProximosCursos .proximoCurso {
+      width: 100%;
+      border: #735d331b 5px solid; }
+      main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
         width: 100%;
-        border: #735d331b 5px solid; }
-        main .sectionProximosCursos .cajaProximosCursos .proximoCurso img {
-          width: 100%;
-          height: 100%; }
+        height: 100%; }
   main .cajaBlog .divImagenYtituloBlog {
     flex-direction: column; }
     main .cajaBlog .divImagenYtituloBlog .cajaImagenBlog {
@@ -860,14 +859,16 @@ main .cajaContacto .container .letraPisaBootstrap {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px; }
-    main .cajaIntroduccion .divCalltoaction .calltoaction {
-      text-decoration-color: orange;
-      font-size: medium;
-      text-decoration: underline orange;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 10px;
-      padding-bottom: 10px; }
+    main .cajaIntroduccion .divCalltoaction .botonContacto {
+      text-decoration: none; }
+      main .cajaIntroduccion .divCalltoaction .botonContacto .calltoaction {
+        text-decoration-color: orange;
+        font-size: medium;
+        text-decoration: underline orange;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px; }
   main .mainAbout .cajaTextoAbout {
     margin-left: 2px;
     margin-right: 2px;
@@ -912,8 +913,6 @@ main .cajaContacto .container .letraPisaBootstrap {
     padding: 0px; }
   main .cajaContacto .container .letraPisaBootstrap .calltoaction {
     font-size: small;
-    text-decoration-color: orange;
-    text-decoration: underline orange;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
